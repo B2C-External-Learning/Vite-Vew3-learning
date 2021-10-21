@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-defineProps<{ msg: string }>()
-
-const count = ref(0)
+defineProps<{ userName: string }>()
 </script>
 
 <template>
-  <h5>Login</h5>
+  <h1>The user is {{ userName }}</h1>
 </template>
 
 <style scoped lang="scss">

@@ -16,6 +16,6 @@ const count = ref(0)
   </nav>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 
 </style>

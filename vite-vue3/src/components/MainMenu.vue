@@ -10,7 +10,7 @@ const count = ref(0)
   <aside class="sidebar">
     <div class="sidebar-head">
       <a href="/" class="logo-wrapper" title="Home">{{ msg }}</a>
-      <button class="" @click="">이동</button>
+      <!-- <button @click="" class="">이동</button> -->
     </div>
     <div class="sidebar-body">
 
@@ -21,6 +21,6 @@ const count = ref(0)
   </aside>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 
 </style>

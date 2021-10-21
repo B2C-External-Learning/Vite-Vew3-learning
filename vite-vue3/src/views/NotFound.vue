@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue'
+import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
@@ -7,9 +7,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <footer class="footer">
-      
-  </footer>
+  <h5>NotFound</h5>
 </template>
 
 <style scoped lang="scss">
